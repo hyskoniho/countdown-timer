@@ -3,7 +3,8 @@
 </div>
 
 # Sobre
-Este projeto é um simples timer de contagem regressiva exibido na tela, o qual achei muito útil ao aplicá-lo em projetos pessoais meus
+Este projeto é um simples timer de contagem regressiva exibido na tela, o qual achei muito útil ao aplicá-lo em projetos pessoais meus<br></br>
+<img src="assets/Screenshot_1.png" align="center">
 
 # Requisitos
 Linguagem:

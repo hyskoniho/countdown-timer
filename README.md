@@ -3,8 +3,9 @@
 </div>
 
 # Sobre
-Este projeto é um simples timer de contagem regressiva exibido na tela, o qual achei muito útil ao aplicá-lo em projetos pessoais meus<br></br>
-<img src="assets/Screenshot_1.png" align="center">
+O intuito deste projeto é gerar na tela um timer de contagem regressiva, com o tempo relativo a conversão de um número inteiro total que represente os segundos. Esse projeto é útil pra mim para controlar visivelmente a execução dos meus códigos, principalmente projetos que envolvam automação. 
+</br>
+<div  align="center"><img src="assets/Screenshot_1.png"></div>
 
 # Requisitos
 Linguagem:

@@ -36,16 +36,18 @@ def countdown():
         root.after(1000, countdown)
         # 1000 = 1 segundo
     else:
+        label.config(text="Encerrado!")
         messagebox.showinfo("Contagem Regressiva", "Tempo esgotado!")
         # Exibe um aviso de término de contagem
         # Fim do programa
         root.destroy()
+        exit()
 
 root = tk.Tk()
 root.title("Contagem Regressiva")
 
 label = tk.Label(root)
-root.pack(pady=10)
+label.pack(pady=10)
 # Define o tamanho da janela
 
 root.attributes('-topmost', True)

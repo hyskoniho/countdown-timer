@@ -31,3 +31,16 @@ No Linux/MacOS:
 ```bash
 pip3 install tkinter
 ```
+
+# Adicione o timer a um projeto existente:
+
+Primeiro, importe a biblioteca _subprocess_:
+```bash
+import subprocess
+```
+Depois, adicione o arquivo *timer.py* ao diretório do seu projeto
+Em seguida, insira a seguinte linha de código:
+```bash
+subprocess.run(['python', 'timer.py'], input=str(valor), text=True)
+```
+(lembre-se de alterar o nome "valor" para a sua variável ou número de segundos para o timer!)

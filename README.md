@@ -25,7 +25,7 @@ $ git clone https://github.com/hyskoniho/countdown-timer
 Instale as bibliotecas necessárias<br></br>
 No Windows:
 ```bash
-pip install tikinter
+pip install tkinter
 ```
 No Linux/MacOS:
 ```bash

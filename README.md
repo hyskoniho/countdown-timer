@@ -22,7 +22,7 @@ $ git clone https://github.com/hyskoniho/countdown-timer
 ```
 </br>
 
-Instale as bibliotecas necessárias<br></br>
+Instale as bibliotecas necessárias (Tkinter)<br></br>
 No Windows:
 ```bash
 pip install tkinter
@@ -34,13 +34,14 @@ pip3 install tkinter
 
 # Adicione o timer a um projeto existente:
 
-Primeiro, importe a biblioteca _subprocess_:
-```bash
-import subprocess
-```
-Depois, adicione o arquivo *timer.py* ao diretório do seu projeto
+Primeiro, adicione o arquivo *[timer.py](https://github.com/hyskoniho/countdown-timer/blob/main/timer.py)* ao diretório do seu projeto
 Em seguida, insira a seguinte linha de código:
 ```bash
-subprocess.run(['python', 'timer.py'], input=str(valor), text=True)
+from timer import start_timer
+```
+<br></br>
+Agora, para iniciar o contador, é só acrescentar a seguinte linha:
+```bash
+start_timer(valor)
 ```
 (lembre-se de alterar o nome "valor" para a sua variável ou número de segundos para o timer!)

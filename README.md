@@ -34,6 +34,12 @@ pip3 install tkinter
 
 # Adicione o timer a um projeto existente:
 
+⚠️ Importante: para o script funcionar, você precisa da estrutura de controle para a variável *__name__*:
+```bash
+if __name__ == '__main__':
+    # código...
+```
+<br></br>
 Primeiro, adicione o arquivo *[timer.py](https://github.com/hyskoniho/countdown-timer/blob/main/timer.py)* ao diretório do seu projeto
 Em seguida, insira a seguinte linha de código:
 ```bash
